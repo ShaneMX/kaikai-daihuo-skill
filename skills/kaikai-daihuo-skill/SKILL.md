@@ -1,7 +1,7 @@
 ---
 name: kaikai-daihuo-skill
 description: 抖音短视频带货文案写作技能。用户输入商品名称，输出 3 条可直接拍摄、开头/痛点/逼单促单各不相同的单段落高转化带货文案；内置同品类对标、千川敏感词规避、开头验收。用于短视频带货口播文案创作。
-version: 0.1.0
+version: 0.1.1
 ---
 
 # kaikai-daihuo-skill
@@ -46,7 +46,7 @@ version: 0.1.0
 ### 阶段 2：写作方法与文案（主流程，最终交付）
 
 1. 先直接回答「高转化带货文案怎么写」：结合说服与转化理论、历史同构案例，提炼带条件的标准答案，见 `references/high-conversion-framework.md`；
-2. 产出文案框架：**开头钩子 → 痛点共鸣 → 核心卖点 → 可信证据 → 促单行动**；
+2. 产出文案框架：**黄金三段式（0-3s 钩子层 → 3-25s 价值实证层 → 25-30s 转化收口层）**，对应元素为开头钩子 → 痛点共鸣 → 核心卖点 → 可信证据 → 促单行动；分层结构与信任红线见 `references/high-conversion-framework.md`，结构图见 `assets/copy-structure-golden-three-stage.png`；
 3. 产出 **3 条定稿文案**：从开头类型、痛点类型、逼单类型中各取不同组合（参考 `references/high-conversion-framework.md` 的组合表），确保 3 条互不相同；
 4. 每条文案用 `scripts/check_sensitive_words.py` 过检，命中敏感词必须改写后再交付。
 
