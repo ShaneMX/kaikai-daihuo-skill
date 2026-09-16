@@ -1,0 +1,4 @@
+interface:
+  display_name: "kaikai-daihuo-skill"
+  short_description: "输入商品名称，输出 3 条抖音短视频带货文案（开头/痛点/逼单各不相同，单段落、不提价格、避开千川敏感词）"
+  default_prompt: "使用 $kaikai-daihuo-skill：给我一个商品名称，我来输出 3 条可直接拍摄的带货文案。"
